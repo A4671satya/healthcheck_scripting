@@ -1,21 +1,21 @@
 ================= System Health Check =================
 Timestamp: 2025-09-10 06:49:30
 --------------------------------------------------------
-📅 Date & Time:
+ Date & Time:
 Wed Sep 10 06:49:30 UTC 2025
 --------------------------------------------------------
-⏱ Uptime:
+ Uptime:
  06:49:30 up 41 min,  1 user,  load average: 0.02, 0.01, 0.00
 --------------------------------------------------------
-💻 CPU Load (uptime):
+ CPU Load (uptime):
  0.02, 0.01, 0.00
 --------------------------------------------------------
-🧠 Memory Usage (MB):
+ Memory Usage (MB):
                total        used        free      shared  buff/cache   available
 Mem:            3774         410        3196           3         243        3363
 Swap:           1024           0        1024
 --------------------------------------------------------
-💽 Disk Usage:
+ Disk Usage:
 Filesystem      Size  Used Avail Use% Mounted on
 none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
 none            1.9G  4.0K  1.9G   1% /mnt/wsl
@@ -32,7 +32,7 @@ none            1.9G   76K  1.9G   1% /mnt/wslg/doc
 C:\             238G   84G  154G  36% /mnt/c
 tmpfs           1.9G   16K  1.9G   1% /run/user/1000
 --------------------------------------------------------
-🔥 Top 5 Memory-Consuming Processes:
+ Top 5 Memory-Consuming Processes:
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root         282  0.0  1.9 2285820 76584 ?       Ssl  06:08   0:01 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 root         193  0.3  1.1 2097424 46080 ?       Ssl  06:08   0:07 /usr/bin/containerd
@@ -40,29 +40,29 @@ root         214  0.0  0.5 107028 22136 ?        Ssl  06:08   0:00 /usr/bin/pyth
 root          42  0.0  0.4  66748 16928 ?        S<s  06:08   0:00 /usr/lib/systemd/systemd-journald
 systemd+     116  0.0  0.3  21456 12544 ?        Ss   06:08   0:00 /usr/lib/systemd/systemd-resolved
 --------------------------------------------------------
-🔍 Service Status:
-nginx is NOT running ❌
-ssh is NOT running ❌
+Service Status:
+nginx is NOT running 
+ssh is NOT running 
 ========================================================
 
 ================= System Health Check =================
 Timestamp: 2025-09-10 06:50:38
 --------------------------------------------------------
-📅 Date & Time:
+ Date & Time:
 Wed Sep 10 06:50:38 UTC 2025
 --------------------------------------------------------
 ⏱ Uptime:
  06:50:38 up 42 min,  1 user,  load average: 0.00, 0.01, 0.00
 --------------------------------------------------------
-💻 CPU Load (uptime):
+ CPU Load (uptime):
  0.00, 0.01, 0.00
 --------------------------------------------------------
-🧠 Memory Usage (MB):
+ Memory Usage (MB):
                total        used        free      shared  buff/cache   available
 Mem:            3774         408        3197           3         245        3366
 Swap:           1024           0        1024
 --------------------------------------------------------
-💽 Disk Usage:
+ Disk Usage:
 Filesystem      Size  Used Avail Use% Mounted on
 none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
 none            1.9G  4.0K  1.9G   1% /mnt/wsl
@@ -79,7 +79,7 @@ none            1.9G   76K  1.9G   1% /mnt/wslg/doc
 C:\             238G   84G  155G  36% /mnt/c
 tmpfs           1.9G   16K  1.9G   1% /run/user/1000
 --------------------------------------------------------
-🔥 Top 5 Memory-Consuming Processes:
+ Top 5 Memory-Consuming Processes:
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root         282  0.0  1.9 2285820 76584 ?       Ssl  06:08   0:01 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 root         193  0.3  1.1 2097424 46080 ?       Ssl  06:08   0:08 /usr/bin/containerd
@@ -88,7 +88,7 @@ root          42  0.0  0.4  66748 16928 ?        S<s  06:08   0:00 /usr/lib/syst
 systemd+     116  0.0  0.3  21456 12544 ?        Ss   06:08   0:00 /usr/lib/systemd/systemd-resolved
 --------------------------------------------------------
 🔍 Service Status:
-nginx is NOT running ❌
-ssh is NOT running ❌
+nginx is NOT running 
+ssh is NOT running 
 ========================================================
 
