@@ -11,36 +11,36 @@ TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
   echo "Timestamp: $TIMESTAMP"
   echo "--------------------------------------------------------"
   
-  echo "📅 Date & Time:"
+  echo " Date & Time:"
   date
   echo "--------------------------------------------------------"
 
-  echo "⏱ Uptime:"
+  echo " Uptime:"
   uptime
   echo "--------------------------------------------------------"
 
-  echo "💻 CPU Load (uptime):"
+  echo " CPU Load (uptime):"
   uptime | awk -F'load average:' '{ print $2 }'
   echo "--------------------------------------------------------"
 
-  echo "🧠 Memory Usage (MB):"
+  echo " Memory Usage (MB):"
   free -m
   echo "--------------------------------------------------------"
 
-  echo "💽 Disk Usage:"
+  echo " Disk Usage:"
   df -h
   echo "--------------------------------------------------------"
 
-  echo "🔥 Top 5 Memory-Consuming Processes:"
+  echo " Top 5 Memory-Consuming Processes:"
   ps aux --sort=-%mem | head -n 6
   echo "--------------------------------------------------------"
 
-  echo "🔍 Service Status:"
+  echo " Service Status:"
   for service in nginx ssh; do
     if systemctl is-active --quiet $service; then
-      echo "$service is running ✅"
+      echo "$service is running "
     else
-      echo "$service is NOT running ❌"
+      echo "$service is NOT running "
     fi
   done
   echo "========================================================"
