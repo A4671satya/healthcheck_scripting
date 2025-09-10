@@ -87,7 +87,7 @@ root         214  0.0  0.5 107028 22136 ?        Ssl  06:08   0:00 /usr/bin/pyth
 root          42  0.0  0.4  66748 16928 ?        S<s  06:08   0:00 /usr/lib/systemd/systemd-journald
 systemd+     116  0.0  0.3  21456 12544 ?        Ss   06:08   0:00 /usr/lib/systemd/systemd-resolved
 --------------------------------------------------------
-🔍 Service Status:
+ Service Status:
 nginx is NOT running 
 ssh is NOT running 
 ========================================================
